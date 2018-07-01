@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "declaration": true,
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": false,
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "declarationDir": "./lib/types",
+    // "lib": ["es2015", "es2016"]
+    "types": ["jest"]
+  },
+  "compileOnSave": false,
+  "include": [
+    "./src/**/*"
+  ]
+}
