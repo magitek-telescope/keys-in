@@ -16,3 +16,6 @@ function keysIn (payload: object, keys: string[]): boolean {
 }
 
 export default keysIn
+
+module.exports = keysIn;
+module.exports.default = keysIn;

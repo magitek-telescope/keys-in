@@ -7,6 +7,8 @@
     "declaration": true,
     "module": "commonjs",
     "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "target": "es5",
     "sourceMap": false,
     "rootDir": "./src",
