@@ -6,12 +6,16 @@
     "removeComments": true,
     "declaration": true,
     "module": "commonjs",
+    "moduleResolution": "node",
     "target": "es5",
     "sourceMap": false,
     "rootDir": "./src",
     "outDir": "./lib",
     "declarationDir": "./lib/types",
-    // "lib": ["es2015", "es2016"]
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017.sharedmemory"],
     "types": ["jest"]
   },
   "compileOnSave": false,

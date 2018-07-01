@@ -6,7 +6,7 @@
   "author": "HANATANI Takuma <mail@potato4d.me>",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn build",
+    "dev": "yarn build -w",
     "build": "tsc",
     "test": "jest",
     "test:coverage": "jest --coverage"
@@ -36,6 +36,7 @@
     ]
   },
   "dependencies": {
-    "@sindresorhus/is": "^0.9.0"
+    "@sindresorhus/is": "^0.9.0",
+    "@types/node": "^10.5.1"
   }
 }

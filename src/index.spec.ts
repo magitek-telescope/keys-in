@@ -1,4 +1,4 @@
-import keysIn from './index.ts'
+import keysIn from './index'
 
 describe('index.ts', () => {
 
