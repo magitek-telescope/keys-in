@@ -4,6 +4,10 @@
 
 Simple object key existence check Library
 
+<center>
+  <img src="https://user-images.githubusercontent.com/6993514/42135816-86b91738-7d8b-11e8-9f2f-25171043fdef.png" alt="">
+</center>
+
 ## Installation
 
 ```bash
