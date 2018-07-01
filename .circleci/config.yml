@@ -6,6 +6,7 @@ jobs:
     steps:
       - checkout
       - run: yarn
+      - run: yarn build
       - run: yarn test:coverage
       - run: yarn codecov
       - store_artifacts:
