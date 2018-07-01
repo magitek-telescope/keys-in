@@ -2,6 +2,7 @@
   "name": "keys-in",
   "version": "0.1.0",
   "main": "lib/index.js",
+  "types": "./lib/types/index.d.ts",
   "repository": "https://github.com/potato4d/keys-in",
   "author": "HANATANI Takuma <mail@potato4d.me>",
   "license": "MIT",
